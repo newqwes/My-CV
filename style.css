@@ -76,6 +76,48 @@ textarea {
     grid-row-end: 4;
     margin: 1em;
     border-right: 1px solid #b9b8bb;
+
+}
+@media (max-width: 414px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .title {
+    margin: 0;
+    padding: 25px;
+  }
+  header {
+    margin: 10px auto;
+    border-radius: 10px;
+    order: 2;
+  }
+  .img {
+    margin: 10px auto;
+    order: 1;
+  }
+  .left {
+    margin: 0 auto;
+    border-right: none;
+    order: 3;
+  }
+  .left .wrapper {
+    margin: 20px auto;
+    padding: 0;
+    width: 100%;
+  }
+  .right {
+    order: 4;
+  }
+  
+  h3, p {
+    text-align: center;
+  }
+  .code {
+    text-align: center;
+    margin: 0;
+  }
 }
 
 .right {
