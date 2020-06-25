@@ -1,1 +1,1 @@
-[https://newqwes.github.io/rsschool-cv/cv](https://newqwes.github.io/rsschool-cv/cv)
+[https://newqwes.github.io/My-CV/](https://newqwes.github.io/My-CV/)
