@@ -111,12 +111,22 @@ textarea {
     order: 4;
   }
   
-  h3, p {
+  h3 {
     text-align: center;
   }
   .code {
     text-align: center;
     margin: 0;
+  }
+  .contacts__links {
+    padding-left: 0;
+  }
+  .contacts__links li {
+    list-style-type: none;
+  }
+  p {
+    text-align: justify;
+    padding: 0 10px;
   }
 }
 
@@ -138,7 +148,9 @@ a {
 
 li, p, label {
     line-height: 1.8rem;
+    list-style-type: square;
 }
+
 progress {
     width: 100px;
     margin: 2px 0 2px 15px;
