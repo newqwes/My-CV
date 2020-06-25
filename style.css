@@ -14,10 +14,10 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     display: grid;
     grid-template-columns: 1fr 2fr;
-    color: #a0a0a3;
+    color: #6e6e6e;
     opacity:0; /*Элемент полностью прозрачный (невидимый)*/
-    transition: 1.5s; /*Скорость перехода состояния элемента*/
-    animation: show 1.5s 1; /* Указываем название анимации, её время и количество повторов*/
+    transition: 0.5s; /*Скорость перехода состояния элемента*/
+    animation: show 0.5s 1; /* Указываем название анимации, её время и количество повторов*/
     animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
 }
 
@@ -61,8 +61,8 @@ textarea {
     background: #ffffff;
     resize: none;
     width: 90%;
-    height: 200px;
-    color: #a0a0a3;
+    height: 500px;
+    color: #163889;
 }
 
 .title {
@@ -91,5 +91,116 @@ article {
 
 a {
     text-decoration: none;
-    color: #a0a0a3;
+    color: #3eb5f1;
 }
+
+li, p, label {
+    line-height: 1.8rem;
+}
+progress {
+    width: 100px;
+    margin: 2px 0 2px 15px;
+}
+
+
+/* sd */
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .skillbar__headway {
+    height: 3px;
+    width: 0px;
+    background:#3eb5f1;
+    border-radius: 20px;
+    margin-top: 5px;
+    position: relative;
+  }
+  
+  .skillbar__headway::before {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3eb5f1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "";
+    transform: translateY(-50%);
+  }
+  
+  .skillbar__headway::after {
+    font-size: 13px;
+    position: absolute;
+    right: -8px;
+    color: #3eb5f1;
+    top: -25px;
+    content: attr(data-count);
+    transform: translateY(-50%);
+  }
+  
+  .skillbar__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .skillbar__title {
+    color: #6e6e6e;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 1px;
+  }
+  
+  
+  .wrapper {
+    width: 80%;
+    max-width: 500px;
+    padding: 30px;
+  }
+  
+  .skillbar__content {
+    background: #6e6e6e;
+  }
+  
+  .skillbar__RZ1ID {
+    width: 85%;
+  }
+  
+  .skillbar__RZ2ID {
+    width: 80%;
+  }
+  
+  .skillbar__RZ3ID {
+    width: 50%;
+  }
+  
+  .skillbar__RZ4ID {
+    width: 80%;
+  }
+  .skillbar__RZ5ID {
+    width: 50%;
+  }
+  .skillbar__RZ6ID {
+    width: 30%;
+  }
+  .skillbar__RZ7ID {
+    width: 40%;
+  }
+  .skillbar__RZ8ID {
+    width: 30%;
+  }
+  .skillbar__RZ9ID {
+    width: 30%;
+  }
+  .skillbar__RZ10ID {
+    width: 65%;
+  }
+  
